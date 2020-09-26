@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: #ccd0d5;
+}
+
+.displey_flex{
+    display: flex;
+}
+
+header{
+    height: 82px;
+    background-color: #3b5998;
+    padding-top: 13px;
+}
+
+.login{
+    float: right;
+}
+
+.logo{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/wjNghUPU3bt.png);
+    background-repeat: no-repeat;
+    background-position: 0 20px;
+    width:170px;
+    height: 55px;
+    float: left;
+}
+
+.menu_bar{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.form{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.td_1 ,.td_2{
+    padding-bottom: 4px;
+    padding-left: 14px;
+}
+
+.form  table tr td {
+    padding: 0 0 0 14px;
+}
+
+.button{
+    background-color: #4267b2;
+    border-color: #29487d;
+    padding: 3px;
+}
+
+.input_text_color{
+    color: black;
+    border: 1px solid #ccd0d5;
+
+}
+
+.pointer{
+    padding: 2px;
+    cursor: pointer;
+    background-color: #4267b2;
+    border-color: #29487d;
+}
+
+.input_type{
+    width: 295px;
+    height: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 6px;
+    border: 1px solid #9c9c9c;
+    color: black;
+
+}
+
+.div{
+    border-radius: 25px;
+    width: 400px;
+    height: 430px;
+    background-color: white;
+    margin: 50px 500px 0px 500px;
+}
+
+.input_div h1{
+    color: #3d84dc;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.input_div{
+    margin-top: 20px;
+}
+.btn_Add{
+    padding: 8px;
+    border-radius: 13px;
+    background-color: #afc1e7;
+    color: black;
+}
+.ul_list_div{
+    width: 91%;
+    padding-left: 22px;
+    font-size: 25px;
+}
+.ul_list{
+    list-style-type: none;
+}
+
+.li{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 50px 15px 0px;
+    color: #3d84dc;
+}
+.li input {
+    margin-top: 7px;
+}
+
+.removeBtn{
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 13px;
+    background-color: #afc1e7;
+}
